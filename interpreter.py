@@ -1,3 +1,4 @@
+from os import error
 import sys
 from random import choice
 
@@ -209,6 +210,10 @@ for file in sysArgs:
 
 if graphEquation == "":
     errorMsg = f"No equation specified."
+    raise Exception(errorMsg)
+  
+if graphLower == "" or graphUpper == "":
+    errorMsg = f"No range specified."
     raise Exception(errorMsg)
 
 if graphWarnings == "show" or graphWarnings == "":

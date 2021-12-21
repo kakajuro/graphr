@@ -3,7 +3,7 @@ OPTIONS WARNINGS HIDE
 
 $this is a comment
 
-TITLE hi there
+TITLE Example Graph
 EQUATION x 1
 RANGE -5 5
 COLOUR blue
