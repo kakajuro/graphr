@@ -38,6 +38,9 @@ $ - Allows for comments.
 #### TITLE
 `e.g. TITLE This is a title` - Sets the title of the graph.
 
+#### EQUATION
+`e.g. EQUATION x^2 5` - Creates the equation for the graph. Each term must have a space between it and must be in terms of x only.
+
 #### RANGE
 `e.g. RANGE -5 5` - Sets the boundaries for the x-axis on the graph.
 
@@ -49,6 +52,21 @@ $ - Allows for comments.
 
 #### SHOW 
 `e.g. SHOW` - Simply displays the graph, without this command the graph would not be displayed.
+
+## Example Program
+```graphr
+OPTIONS TOOLBAR HIDE
+OPTIONS WARNINGS HIDE
+
+$this is a comment
+
+TITLE Example Graph
+EQUATION x 1
+RANGE -5 5
+COLOUR blue
+SCREENSHOT graph1
+SHOW
+```
 
 ## Contributing
 All pull requests are welcome let me know if there are any bugs.
