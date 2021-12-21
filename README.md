@@ -1,11 +1,11 @@
 # graphr
 
-## Introduction
-graphr is a small language written to create basic mathematical graphs. It is an interpreted language written in python and essentially wraps the matplotlib library using a simple syntax.
-
 <div align="center">
   <img src="./imgs/graph1.png">  
 </div>
+
+## Introduction
+graphr is a small language written to create basic mathematical graphs. It is an interpreted language written in python and essentially wraps the matplotlib library using a simple syntax.
 
 ## Installation
 Firstly install matplotlib and numpy
