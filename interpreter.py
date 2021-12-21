@@ -1,4 +1,3 @@
-from os import error
 import sys
 from random import choice
 
