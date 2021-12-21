@@ -5,7 +5,7 @@
 </div>
 
 ## Introduction
-graphr is a small language written to create basic mathematical graphs. It is an interpreted language written in python and essentially wraps the matplotlib library using a simple syntax.
+graphr is a small language written to create basic mathematical graphs. It is an interpreted language written in python and essentially wraps the matplotlib library using a simple syntax. Heavily inspired by [vmem!](https://github.com/sudocode1/vmem)
 
 ## Installation
 Firstly install matplotlib and numpy
